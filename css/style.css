@@ -1587,18 +1587,6 @@ MARCAS
     flex-direction: column;
     gap: 20px;
 }
-
-@media (max-width: 768px) {
-    .contenidoMarca {
-        grid-template-columns: 1fr;
-        gap: 25px;
-    }
-
-    .imagenMArxca {
-        height: 280px;
-    }
-}
-
 /*
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 AUTOGRAFO
@@ -1662,23 +1650,6 @@ AUTOGRAFO
     text-transform: uppercase;
     font-family: var(--cover);
 }
-
-@media(max-width: 768px) {
-    .deportista {
-        flex-basis: calc((100% - 20px) / 2);
-    }
-
-    .dias-invitados {
-        gap: 8px;
-        flex-wrap: wrap;
-    }
-
-    .dia-btn {
-        padding: 10px;
-        font-size: 12px;
-    }
-}
-
 /*
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 CICLISAS
@@ -1995,6 +1966,21 @@ REsponsive
         justify-content: space-evenly;
         gap: 40px;
     }
+    .contenidoHeaderFZ{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .contenidoHeaderFZ h1{
+        width: 100%;
+    }
+    .contenidoHeaderFZ p{
+        width: 100%;
+    }
+    .contenidoHeaderFZ .etiqueta::after{
+        left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    }
 }
 
 @media (max-width: 1310px) {
@@ -2206,7 +2192,9 @@ REsponsive
     .imgRutas {
         width: 100%;
     }
-
+    .ptcel{
+        padding-top: 30px;
+    }
 }
 
 @media (max-width: 780px) {
@@ -2244,6 +2232,13 @@ REsponsive
 
     .textoImagen img {
         width: 100%;
+    }
+    .cantante{
+        width: 100%;
+    }
+    .imagenMArxca {
+        height: 380px;
+        width: auto;
     }
 }
 
@@ -2317,5 +2312,20 @@ REsponsive
         width: 100%;
         min-height: 100vh;
         height: auto;
+    }
+        .imagenMArxca {
+        height: auto;
+        width: 100%;
+    }
+    .botonesBannerFZ{
+        flex-wrap: wrap;
+        gap: 20px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .botonesBannerFZ a{
+        width: 80%;
+        margin: 0 auto;
     }
 }
