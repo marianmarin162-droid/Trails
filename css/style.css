@@ -1990,6 +1990,11 @@ REsponsive
         flex-direction: column;
         align-items: center;
     }
+
+    .etapas {
+        justify-content: space-evenly;
+        gap: 40px;
+    }
 }
 
 @media (max-width: 1310px) {
@@ -2247,15 +2252,18 @@ REsponsive
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+
     .imagnesCamisas img {
         width: 269px;
         height: 317px;
 
     }
-    .cardHospedaje{
+
+    .cardHospedaje {
         width: 100%;
     }
-    .cardDiver{
+
+    .cardDiver {
         width: 100%;
     }
 }
@@ -2293,5 +2301,21 @@ REsponsive
 
     .imganesPalabras img {
         width: 100%;
+    }
+
+    .cardRuta img {
+        width: 100%;
+    }
+
+    .contenidoHeadeR p {
+        font-size: 16px;
+    }
+
+    .headerRutas {
+        background: url(../img/headerRutas.jpg) center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 100vh;
+        height: auto;
     }
 }
