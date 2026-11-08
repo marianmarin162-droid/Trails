@@ -1587,6 +1587,7 @@ MARCAS
     flex-direction: column;
     gap: 20px;
 }
+
 /*
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 AUTOGRAFO
@@ -1650,6 +1651,7 @@ AUTOGRAFO
     text-transform: uppercase;
     font-family: var(--cover);
 }
+
 /*
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 CICLISAS
@@ -1966,20 +1968,24 @@ REsponsive
         justify-content: space-evenly;
         gap: 40px;
     }
-    .contenidoHeaderFZ{
+
+    .contenidoHeaderFZ {
         text-align: center;
         padding-bottom: 40px;
     }
-    .contenidoHeaderFZ h1{
+
+    .contenidoHeaderFZ h1 {
         width: 100%;
     }
-    .contenidoHeaderFZ p{
+
+    .contenidoHeaderFZ p {
         width: 100%;
     }
-    .contenidoHeaderFZ .etiqueta::after{
+
+    .contenidoHeaderFZ .etiqueta::after {
         left: 50%;
-    transform: translateX(-50%);
-    width: 20%;
+        transform: translateX(-50%);
+        width: 20%;
     }
 }
 
@@ -2192,7 +2198,8 @@ REsponsive
     .imgRutas {
         width: 100%;
     }
-    .ptcel{
+
+    .ptcel {
         padding-top: 30px;
     }
 }
@@ -2233,12 +2240,24 @@ REsponsive
     .textoImagen img {
         width: 100%;
     }
-    .cantante{
+
+    .cantante {
         width: 100%;
     }
+
     .imagenMArxca {
         height: 380px;
         width: auto;
+    }
+
+    .logo {
+        width: 103px;
+        height: auto;
+    }
+
+    .logoImagen {
+        width: 103px;
+        height: auto;
     }
 }
 
@@ -2313,19 +2332,127 @@ REsponsive
         min-height: 100vh;
         height: auto;
     }
-        .imagenMArxca {
+
+    .imagenMArxca {
         height: auto;
         width: 100%;
     }
-    .botonesBannerFZ{
+
+    .botonesBannerFZ {
         flex-wrap: wrap;
         gap: 20px;
         height: auto;
         display: flex;
         flex-direction: column;
     }
-    .botonesBannerFZ a{
+
+    .botonesBannerFZ a {
         width: 80%;
         margin: 0 auto;
+    }
+
+    .cardEquipo {
+        width: 100%;
+    }
+
+    .alimentacion .pClaro {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:400px) {
+    header {
+        min-height: 100vh;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .pClaro {
+        font-size: 16px;
+    }
+
+    .pOscuro {
+        font-size: 16px;
+    }
+
+    .titulo h4 {
+        font-size: 20px;
+    }
+
+    .titulo p {
+        font-size: 16px;
+    }
+
+    .pBanner {
+        font-size: 15px;
+    }
+
+    .etiqueta {
+        font-size: 20px;
+    }
+
+    .contenidoHeaderH {
+        min-height: 100vh;
+        width: 90%;
+        padding-bottom: 40px;
+    }
+
+    .btnBanner {
+        font-size: 16px;
+    }
+
+    .contenidoHeaderG {
+        min-height: 100vh;
+        width: 90%;
+        padding-bottom: 40px;
+    }
+
+    .contenidoHeadeR {
+        min-height: 115vh;
+        height: auto;
+        width: 90%;
+        padding-bottom: 40px;
+    }
+
+    .padinHeader {
+        padding-top: 100px;
+    }
+
+    .cardAlime {
+        height: 350px;
+        position: relative;
+    }
+
+    .cardAlime .footerCardG {
+        position: absolute;
+        top: 297px;
+        right: 0;
+        width: 100%;
+    }
+    .conciertos{
+        background-color: var(--color6);
+    }
+    .tabsdeportistas{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .carddeportista{
+        height: auto;
     }
 }
