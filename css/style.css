@@ -16,7 +16,7 @@ GENERALES
     --color3: #fff;
     --color4: #000;
     --color5: #66704A;
-    --color6:#E7E7E7;
+    --color6: #E7E7E7;
     --popins: Poppins, sans-serif;
     --cover: Covered By Your Grace, cursive;
 }
@@ -58,18 +58,21 @@ h2 {
     color: var(--color3);
     font-weight: 500;
 }
-h3{
+
+h3 {
     font-family: var(--popins);
     font-size: 40px;
     color: var(--color3);
     font-weight: 500;
 }
-h4{
+
+h4 {
     font-family: var(--popins);
     font-size: 23px;
     color: var(--color3);
     font-weight: 500;
 }
+
 .Uniformes h2 {
     color: var(--color4);
 }
@@ -118,6 +121,7 @@ h4{
     height: 3px;
     background-color: var(--color1);
 }
+
 .footerLinks a {
     color: var(--color3);
     font-family: var(--popins);
@@ -185,11 +189,13 @@ BOTONES
     text-align: center;
     width: auto;
 }
-.botonesBannerH{
+
+.botonesBannerH {
     gap: 50px;
     display: flex;
     margin: 0 auto;
 }
+
 /*
 =========================================================================================================================
 INDEX.HTML
@@ -483,12 +489,13 @@ Fan Zone
     text-align: center;
     gap: 20px;
 }
+
 /*
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 CONTACTO
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 */
-.Contacto{
+.Contacto {
     background: url(../img/contactoFondo.png);
     background-size: cover;
     background-position: center;
@@ -532,8 +539,8 @@ CONTACTO
     transform: translateY(-4px);
 }
 
-.Contacto h3{
-  color: var(--color1);
+.Contacto h3 {
+    color: var(--color1);
 }
 
 .info-row {
@@ -576,6 +583,7 @@ CONTACTO
     border-radius: 9px;
     box-shadow: 0 12px 35px rgba(0, 0, 0, 0.10);
 }
+
 .contact-form label {
     margin: 0 0 8px;
     color: var(--color1);
@@ -583,6 +591,7 @@ CONTACTO
     font-size: 1.05rem;
     font-weight: 600;
 }
+
 .contact-form input,
 .contact-form textarea {
     box-sizing: border-box;
@@ -592,7 +601,7 @@ CONTACTO
     border: 1px solid rgba(14, 20, 3, 0.3);
     border-radius: 21px;
     outline: none;
-    background:var(--color2);
+    background: var(--color2);
     color: var(--color1);
     font-family: var(--popins);
     font-size: 1rem;
@@ -601,29 +610,35 @@ CONTACTO
         background 0.3s ease,
         box-shadow 0.3s ease;
 }
+
 .contact-form input {
     min-height: 49px;
 }
+
 .contact-form textarea {
     min-height: 80px;
     resize: vertical;
 }
+
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
     color: var(--color1);
     opacity: 1;
 }
+
 .contact-form input:focus,
 .contact-form textarea:focus {
     border-color: var(--color1);
     background: var(--color2);
     box-shadow: 0 0 0 3px rgba(161, 93, 224, 0.13);
 }
+
 /* BOTÓN */
 .contact-form .botonSectionN {
     width: 200px;
     margin: 0 auto;
 }
+
 .contact-container {
     margin: 0 auto;
 }
@@ -646,12 +661,15 @@ FOOTER
     padding-bottom: 45px;
     align-items: center;
 }
-.footerBrand{
+
+.footerBrand {
     width: 150px;
 }
-.footerBrand img{
+
+.footerBrand img {
     width: 100%;
 }
+
 .footerLinks {
     display: flex;
     flex-direction: column;
@@ -681,7 +699,7 @@ FOOTER
 /* PARTE INFERIOR */
 
 .footerBottom {
-    border-top: 1px solid rgba(255,255,255,0.15);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
     padding-top: 22px;
 
     display: flex;
@@ -745,7 +763,8 @@ HEADER
     background: url(../img/fondohistoria.jpg) no-repeat center center;
     background-size: cover;
 }
-.contenidoHeaderH{
+
+.contenidoHeaderH {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -756,46 +775,55 @@ HEADER
     text-align: center;
     gap: 20px;
 }
-.contenidoHeaderH h1{
+
+.contenidoHeaderH h1 {
     width: 100%;
 }
-.contenidoHeaderH p{
+
+.contenidoHeaderH p {
     width: 100%;
     margin-bottom: 20px;
 }
+
 .contenidoHeaderH .etiqueta::after {
     left: 50%;
     transform: translateX(-50%);
     width: 6%;
 }
+
 /*
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 HISTORIA
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 */
-.historiaH{
+.historiaH {
     background-color: var(--color5);
 }
-.textoImagen{
+
+.textoImagen {
     display: flex;
     justify-content: space-between;
     gap: 50px;
     align-items: center;
 }
-.textoImagen h3{
+
+.textoImagen h3 {
     color: var(--color1);
 }
-.esencia{
+
+.esencia {
     padding-top: 40px;
     text-align: center;
 }
-.metricas{
+
+.metricas {
     display: flex;
     justify-content: space-evenly;
     padding-top: 40px;
 }
-.metricaIn{
-    background-color:var(--color6) ;
+
+.metricaIn {
+    background-color: var(--color6);
     padding: 15px;
     border-radius: 5px;
     min-height: 250px;
@@ -803,74 +831,88 @@ HISTORIA
     flex-direction: column;
     justify-content: center;
 }
-.metricaIn h4{
+
+.metricaIn h4 {
     color: var(--color4);
 }
-.Principal{
+
+.Principal {
     font-family: var(--cover);
     font-size: 80px;
     color: var(--color1);
 }
+
 /*
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 VAlores
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 */
-.valores{
+.valores {
     background-color: var(--color6);
     text-align: center;
 }
-.valores h2{
+
+.valores h2 {
     color: var(--color4);
 }
-.MisViVa{
+
+.MisViVa {
     display: flex;
     justify-content: space-evenly;
 }
-.indivisulaMVV{
+
+.indivisulaMVV {
     display: flex;
     flex-direction: column;
     padding: 20px 0;
     width: 320px;
 }
-.valores h3{
+
+.valores h3 {
     color: var(--color1);
 }
-.h3img{
+
+.h3img {
     padding-bottom: 25px;
 }
-.imganesPalabras{
+
+.imganesPalabras {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 40px;
 }
+
 .valores .etiqueta::after {
     left: 50%;
     transform: translateX(-50%);
     width: 55%;
 }
+
 /*
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 EQUIPO
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 */
-.equipo{
+.equipo {
     background-color: var(--color2);
     text-align: center;
 }
-.contentEquipo{
+
+.contentEquipo {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 40px;
     padding-top: 40px;
 }
-.cardEquipo{
+
+.cardEquipo {
     display: flex;
     flex-direction: column;
 }
-.footerCard{
+
+.footerCard {
     background-color: var(--color3);
     display: flex;
     align-items: center;
@@ -878,33 +920,39 @@ EQUIPO
     padding: 15px 10px;
     justify-content: space-between;
 }
-.nombreEquipo{
+
+.nombreEquipo {
     font-family: var(--cover);
     color: var(--color2);
 }
-.informacionEqui p{
+
+.informacionEqui p {
     color: var(--color1);
     font-family: var(--popins);
     font-size: 18px;
 }
-.footerCard i{
+
+.footerCard i {
     background-color: var(--color2);
     font-size: 25px;
     padding: 5px;
     border-radius: 50%;
     color: var(--color1);
     cursor: pointer;
-    transition:ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
 }
-.footerCard i:hover{
+
+.footerCard i:hover {
     background-color: var(--color1);
     color: var(--color2);
 }
+
 .equipo .etiqueta::after {
     left: 50%;
     transform: translateX(-50%);
     width: 55%;
 }
+
 /* MODAL */
 .modal {
     position: fixed;
@@ -968,9 +1016,10 @@ EQUIPO
     padding: 15px 0;
 }
 
-.modal-card .etiqueta{
+.modal-card .etiqueta {
     font-size: 20px;
 }
+
 /* FOOTER */
 .modal-footer {
     color: var(--color2);
@@ -979,18 +1028,22 @@ EQUIPO
     font-size: 14px;
     padding: 20px 0 5px;
 }
+
 .card-equipo {
     cursor: pointer;
 }
+
 .card-equipo img {
     width: 100%;
     display: block;
     object-fit: cover;
 
 }
+
 .btn-ver {
     cursor: pointer;
 }
+
 /* RESPONSIVE */
 @media (max-width: 600px) {
     .modal-card {
@@ -1024,57 +1077,67 @@ uniforme.html
 HEADER
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 */
-.hedarUniformes{
+.hedarUniformes {
     background: url(../img/fondoUniforme.jpg) center no-repeat;
     width: 100%;
     object-fit: cover;
     height: 100vh;
 }
+
 /*
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 camisas
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 */
-.camisas{
+.camisas {
     background: url(../img/fondoCamisas.png) center no-repeat;
     background-size: cover;
 }
-.textoImagenes{
+
+.textoImagenes {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.textoCamsias{
+
+.textoCamsias {
     max-width: 50%;
 }
-.imagnesCamisas img{
+
+.imagnesCamisas img {
     width: 290px;
     height: 400px;
 }
-.textoCamsias i{
+
+.textoCamsias i {
     color: var(--color1);
     font-size: 22px;
     padding-right: 15px;
 }
-.imagnes{
+
+.imagnes {
     text-align: center;
 }
-.imagnes h3{
+
+.imagnes h3 {
     font-size: 30px;
     padding: 25px 0;
     color: var(--color1);
 }
-.tituloText{
+
+.tituloText {
     text-align: center;
     gap: 40px;
     display: flex;
     flex-direction: column;
 }
-.camisas .container{
+
+.camisas .container {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
+
 /*=========================================================================================================================
 ruta.html
 ===========================================================================================================================
@@ -1084,13 +1147,14 @@ ruta.html
 HEADER
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 */
-.headerRutas{
+.headerRutas {
     background: url(../img/headerRutas.jpg) center no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
 }
-.contenidoHeadeR{
+
+.contenidoHeadeR {
     min-height: 100vh;
     width: 90%;
     margin: 0 auto;
@@ -1100,73 +1164,87 @@ HEADER
     padding-bottom: 50px;
     gap: 20px;
 }
-.contenidoHeadeR .etiqueta::after{
+
+.contenidoHeadeR .etiqueta::after {
     left: 50%;
     transform: translateX(-50%);
     width: 6%;
 }
-.contenidoHeadeR h1{
+
+.contenidoHeadeR h1 {
     width: 100%;
     text-align: center;
 }
-.contenidoHeadeR p{
+
+.contenidoHeadeR p {
     text-align: center;
     width: 100%;
 }
-.contenidoHeadeR .botonesBannerR{
+
+.contenidoHeadeR .botonesBannerR {
     margin: 0 auto;
     display: flex;
     gap: 40px;
 }
+
 /*
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 RUTAS
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 */
-.rutas4{
+.rutas4 {
     background-color: var(--color5);
     text-align: center;
 }
-.rutasIm{
+
+.rutasIm {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.cardRuta img{
+
+.cardRuta img {
     width: 350px;
 }
-.encabezado{
+
+.encabezado {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 40px;
 }
-.rutas4 h2{
+
+.rutas4 h2 {
     text-align: center;
 }
-.rutas4 p{
+
+.rutas4 p {
     text-align: center;
 }
-.rutas4 .etiqueta::after{
+
+.rutas4 .etiqueta::after {
     left: 50%;
     transform: translateX(-50%);
     width: 6%;
     text-align: center;
 }
-.encabezado h3{
+
+.encabezado h3 {
     font-size: 25px;
 }
-.encabezado p{
+
+.encabezado p {
     font-family: var(--cover);
     color: var(--color1);
     font-size: 30px;
 }
+
 /*
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 PAQUETES
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 */
-.cardEtapa{
+.cardEtapa {
     width: 320px;
     height: 250px;
     border-radius: 15px;
@@ -1176,58 +1254,70 @@ PAQUETES
     text-align: center;
     padding: 10px;
 }
-#etapa1{
+
+#etapa1 {
     background: url(../img/etapa1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-#etapa2{
+
+#etapa2 {
     background: url(../img/etapa4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-#etapa3{
+
+#etapa3 {
     background: url(../img/etapa3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-#etapa4{
+
+#etapa4 {
     background: url(../img/etapa4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.etapas{
+
+.etapas {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 40px;
 }
-.cardEtapa h3{
+
+.cardEtapa h3 {
     font-family: var(--cover);
     font-size: 35px;
 }
-.precio{
+
+.precio {
     font-family: var(--popins);
     font-size: 25px;
     font-weight: 600;
     color: var(--color1);
 }
-.paquetesR{
+
+.paquetesR {
     background-color: var(--color6);
 }
-.paquetesR .container h2{
+
+.paquetesR .container h2 {
     text-align: center;
     color: var(--color4);
 }
-.paquetesR .container p{
+
+.paquetesR .container p {
     text-align: center;
 }
-.paquetesR h3{
+
+.paquetesR h3 {
     text-align: center;
     color: var(--color1);
     padding: 40px 0;
 }
-.paquetCompleto{
+
+.paquetCompleto {
     background: url(../img/paqeuteCompleto.jpg)center no-repeat;
     background-size: cover;
     max-width: 700px;
@@ -1239,31 +1329,36 @@ PAQUETES
     margin: 0 auto;
     border-radius: 5px;
 }
-.textoPaquete{
+
+.textoPaquete {
     width: 60%;
 }
-.textoPaquete h4{
+
+.textoPaquete h4 {
     font-family: var(--cover);
     text-align: center;
     font-size: 30px;
 }
+
 /*
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 INSCRIBIRSE
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 */
-.Inscribirse{
+.Inscribirse {
     background: url(../img/formInscribirse.png) center no-repeat;
     background-size: cover;
     min-height: 100vh;
 }
-.Inscribirse .container{
+
+.Inscribirse .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
 }
-.inscriForm{
+
+.inscriForm {
     padding: 35px;
     max-width: 800px;
     background-color: var(--color5);
@@ -1273,6 +1368,7 @@ INSCRIBIRSE
     flex-direction: column;
     border-radius: 5px;
 }
+
 .inscriForm label {
     margin: 0 0 8px;
     color: var(--color1);
@@ -1280,6 +1376,7 @@ INSCRIBIRSE
     font-size: 1.05rem;
     font-weight: 600;
 }
+
 .inscriForm input,
 .inscriForm select {
     box-sizing: border-box;
@@ -1289,7 +1386,7 @@ INSCRIBIRSE
     border: 1px solid rgba(14, 20, 3, 0.3);
     border-radius: 21px;
     outline: none;
-    background:var(--color2);
+    background: var(--color2);
     color: var(--color1);
     font-family: var(--popins);
     font-size: 1rem;
@@ -1298,29 +1395,35 @@ INSCRIBIRSE
         background 0.3s ease,
         box-shadow 0.3s ease;
 }
+
 .inscriForm input {
     min-height: 49px;
 }
+
 .inscriForm select {
     min-height: 40px;
     resize: vertical;
 }
+
 .inscriForm input::placeholder,
 .inscriForm select::placeholder {
     color: var(--color1);
     opacity: 1;
 }
+
 .inscriForm input:focus,
 .inscriForm select:focus {
     border-color: var(--color1);
     background: var(--color2);
     box-shadow: 0 0 0 3px rgba(161, 93, 224, 0.13);
 }
+
 /* BOTÓN */
 .inscriForm .botonSectionN {
     width: 200px;
     margin: 0 auto;
 }
+
 /*=========================================================================================================================
 fanZone.html
 ===========================================================================================================================
@@ -1330,13 +1433,14 @@ fanZone.html
 HEADER
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 */
-.fanzonehe{
+.fanzonehe {
     background: url(../img/headerFanZone.jpg) center no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
 }
-.contenidoHeaderFZ{
+
+.contenidoHeaderFZ {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -1345,32 +1449,38 @@ HEADER
     width: 90%;
     margin: 0 auto;
 }
-.contenidoHeaderFZ .pBanner{
+
+.contenidoHeaderFZ .pBanner {
     padding-bottom: 40px;
 }
+
 /*
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 CONCIERTOS
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 */
-.conciertos{
+.conciertos {
     background: url(../img/fondoCarrusel.png) center no-repeat;
     text-align: center;
     min-height: 100vh;
     margin: 0;
 }
-.conciertos h2{
+
+.conciertos h2 {
     color: var(--color4);
     text-align: center;
 }
-.conciertos p{
+
+.conciertos p {
     text-align: center;
 }
-.conciertos .etiqueta::after{
+
+.conciertos .etiqueta::after {
     left: 50%;
     transform: translateX(-50%);
     width: 66%;
 }
+
 .tabs {
     display: flex;
     justify-content: center;
@@ -1378,23 +1488,28 @@ CONCIERTOS
     gap: 12px;
     margin: 40px 0;
 }
+
 .tab {
     cursor: pointer;
     transition: 0.3s ease;
 }
+
 .tab.activo {
     background-color: var(--color1);
     color: var(--color3);
 }
+
 .dia-concierto {
     display: none;
 }
+
 .dia-concierto.activo {
     display: flex;
     flex-direction: column;
     gap: 40px;
     align-items: center;
 }
+
 .cantante {
     display: flex;
     align-items: center;
@@ -1407,44 +1522,52 @@ CONCIERTOS
     flex-direction: column;
     text-align: center;
 }
+
 .cantante h3 {
     font-size: 25px;
     color: var(--color1);
 }
+
 .cantante p {
-   font-family: var(--cover);
-   font-size: 35px;
-   color: var(--color1);
+    font-family: var(--cover);
+    font-size: 35px;
+    color: var(--color1);
 }
+
 /*
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 MARCAS
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 */
-.marcas{
+.marcas {
     background-color: var(--color5);
     text-align: center;
 }
-.imagenMArxca{
+
+.imagenMArxca {
     width: 38%;
     padding-top: 40px;
 }
-.textoMarcas{
+
+.textoMarcas {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.textoMarcas a{
+
+.textoMarcas a {
     width: 200px;
     margin: 0 auto;
 }
-.flechas{
+
+.flechas {
     width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.flechas i{
+
+.flechas i {
     font-size: 30px;
     color: var(--color1);
     cursor: pointer;
@@ -1453,10 +1576,12 @@ MARCAS
     border-radius: 100%;
     transition: ease-in-out 0.3s;
 }
-.flechas i:hover{
+
+.flechas i:hover {
     background-color: var(--color1);
     color: var(--color2);
 }
+
 .textoMarcas {
     display: flex;
     flex-direction: column;
@@ -1473,33 +1598,39 @@ MARCAS
         height: 280px;
     }
 }
+
 /*
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 AUTOGRAFO
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 */
-.autografo{
+.autografo {
     background: url(../img/autografo.png) center no-repeat;
     background-size: cover;
     text-align: center;
 }
-.autografo .etiqueta::after{
+
+.autografo .etiqueta::after {
     left: 50%;
     transform: translateX(-50%);
     width: 66%;
 }
-.autografo h2{
+
+.autografo h2 {
     color: var(--color4);
 }
+
 .dias-invitados {
     display: flex;
     justify-content: center;
     gap: 20px;
     margin: 40px 0;
 }
-#dia{
+
+#dia {
     color: var(--color1);
 }
+
 .deportistas-ventana {
     width: 100%;
     overflow: hidden;
@@ -1513,7 +1644,7 @@ AUTOGRAFO
 }
 
 .deportista {
-     display: flex;
+    display: flex;
     align-items: center;
     padding: 15px;
     background-color: var(--color5);
@@ -1531,6 +1662,7 @@ AUTOGRAFO
     text-transform: uppercase;
     font-family: var(--cover);
 }
+
 @media(max-width: 768px) {
     .deportista {
         flex-basis: calc((100% - 20px) / 2);
@@ -1546,13 +1678,14 @@ AUTOGRAFO
         font-size: 12px;
     }
 }
+
 /*
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 CICLISAS
 !+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 */
 /* ENCABEZADO Y FLECHAS */
-.tabsdeportistas{
+.tabsdeportistas {
     display: flex;
     gap: 40px;
     margin: 0 auto;
@@ -1560,16 +1693,19 @@ CICLISAS
     width: 100%;
     justify-content: center;
 }
-.ciclistas{
+
+.ciclistas {
     background-color: var(--color2);
     text-align: center;
 }
+
 .deportistas-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 30px 0;
 }
+
 /* CONTENEDOR DE TARJETAS */
 .contenedorDeportistas {
     display: flex;
@@ -1578,6 +1714,7 @@ CICLISAS
     gap: 40px;
     margin-top: 35px;
 }
+
 /* TARJETA */
 .carddeportista {
     position: relative;
@@ -1588,7 +1725,8 @@ CICLISAS
     flex-direction: column;
     transition: transform .3s ease;
 }
-.bandera{
+
+.bandera {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -1597,25 +1735,30 @@ CICLISAS
     border-radius: 5px;
 
 }
+
 .carddeportista:hover {
     transform: translateY(-8px);
 }
+
 .carddeportista img.fotodeportista {
     height: 500px;
     object-fit: cover;
     transition: transform .5s ease;
 }
+
 .carddeportista:hover img.fotodeportista {
     transform: scale(1.08);
 }
+
 .infodeportista {
-   background-color: var(--color5);
-   z-index: 20;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 15px;
+    background-color: var(--color5);
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
 }
+
 .nombreC {
     font-size: 25px;
     color: var(--color1);
@@ -1623,12 +1766,14 @@ CICLISAS
     margin: 0;
     font-weight: 700;
 }
-.sigla{
+
+.sigla {
     font-family: var(--popins);
     color: var(--color3);
     font-size: 20px;
     font-weight: bold;
 }
+
 .pais-deportista {
     display: flex;
     align-items: center;
@@ -1636,4 +1781,517 @@ CICLISAS
     margin-top: 8px;
     font-size: 13px;
     color: #ddd;
+}
+
+/*=========================================================================================================================
+gastro.html
+===========================================================================================================================
+*/
+/*
+!+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
+HEADER
+!+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
+*/
+.headerGastro {
+    background: url(../img/headerGastro.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.contenidoHeaderG {
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.contenidoHeaderG h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.contenidoHeaderG p {
+    text-align: center;
+    width: 100%;
+}
+
+.contenidoHeaderG .etiqueta::after {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 11%;
+}
+
+/*!+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
+HOSPEDAJE
+!+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
+*/
+.hospedaje {
+    background-color: var(--color6);
+    text-align: center;
+}
+
+.hospedaje .etiqueta::after {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+}
+
+.hospedaje h2 {
+    color: var(--color4);
+}
+
+.hospedaje h3 {
+    color: var(--color4);
+    padding: 40px 0;
+}
+
+.cardsHospedaje {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    gap: 40px;
+}
+
+.cardHospedaje {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.footerCardG {
+    background-color: var(--color2);
+    padding: 15px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo h4 {
+    font-family: var(--cover);
+    color: var(--color1);
+    font-size: 30px;
+}
+
+.titulo p {
+    color: var(--color3);
+    font-family: var(--popins);
+    font-size: 18px;
+}
+
+.numeroT {
+    text-align: start;
+    color: var(--color1);
+    font-family: var(--popins);
+}
+
+/*!+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
+ALIMENTACION
+!+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
+*/
+.alimentacion {
+    background-color: var(--color2);
+}
+
+.alimentacion h3 {
+    text-align: center;
+}
+
+.cardAlimentacion {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    gap: 40px;
+}
+
+.cardAlime {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cardAlime img {
+    width: 460px;
+    object-fit: cover;
+    transition: ease-in-out 0.4s;
+}
+
+.cardAlime .footerCardG {
+    background-color: var(--color3);
+}
+
+.cardAlime .footerCardG p {
+    color: var(--color4);
+}
+
+/*!+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
+DIVERSION
+!+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
+*/
+.diversion {
+    background-color: var(--color6);
+    text-align: center;
+}
+
+.diversion h3 {
+    color: var(--color4);
+}
+
+.cardsDiversion {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.cardDiver {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+/*
+*!+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
+REsponsive
+*!+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
+*/
+@media (max-width: 1645px) {
+    .Nosotros .container {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 40px;
+    }
+
+    .metricas {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+
+    .MisViVa {
+        flex-wrap: wrap;
+    }
+
+    .textoImagen {
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1310px) {
+    .Nosotros .container {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .textoNosotros {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .textoNosotros h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .textoNosotros p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .textoNosotros .etiqueta::after {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 6%;
+    }
+
+    .botonSectionN {
+        margin: 0 auto;
+    }
+
+    .Experiencia .container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .imgRutas {
+        width: 55%;
+    }
+
+    .fanZone .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+        flex-direction: column-reverse;
+    }
+
+    .fanZone .etiqueta::after {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 26%;
+    }
+
+    .textoImagenes {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .textoCamsias {
+        width: 100%;
+        text-align: center;
+        max-width: 800px;
+    }
+
+    .textoCamsias h2 {
+        width: 100%;
+
+    }
+
+    .imagnesCamisas img {
+        width: 369px;
+        height: 517px;
+
+    }
+
+    .imgatex2 {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 1030px) {
+    h1 {
+        font-size: 55px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .opcionNav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 75%;
+        height: 100vh;
+
+        background: #202A2C;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+
+        transition: right 0.4s ease;
+        z-index: 1000;
+    }
+
+    /* MOSTRAR MENÚ */
+    .opcionNav.active {
+        right: 0;
+    }
+
+    /* ICONO HAMBURGUESA */
+    .navBar {
+        display: block;
+    }
+
+    /* ICONO CERRAR */
+    .closeIcon {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+
+    .contenidoHeader {
+        width: 95%;
+        text-align: center;
+        justify-content: end;
+        padding-bottom: 55px;
+    }
+
+    .contenidoHeader h1 {
+        width: 100%;
+    }
+
+    .contenidoHeader .pBanner {
+        width: 100%;
+    }
+
+    .contenidoHeader .etiqueta::after {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 6%;
+    }
+
+    .botonesBanner {
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+
+    .textoFanZone {
+        width: 100%;
+    }
+
+    .fanZone h2 {
+        width: 100%;
+    }
+
+    .informacionCotacto {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact-form {
+        padding: 40px;
+    }
+
+    .contact-card {
+        width: 80%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .contact-container {
+        width: 80%;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .imgRutas {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 780px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .carruselEx {
+        width: 100%;
+        height: 480px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 25px;
+    }
+
+    .imgFa {
+        width: 100%;
+    }
+
+    .imagenNoso {
+        width: 100%;
+    }
+
+    .textoImagen img {
+        width: 100%;
+    }
+}
+
+@media (max-width:700px) {
+    .botonesBanner {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .imagnesCamisas img {
+        width: 269px;
+        height: 317px;
+
+    }
+    .cardHospedaje{
+        width: 100%;
+    }
+    .cardDiver{
+        width: 100%;
+    }
+}
+
+@media (max-width: 516px) {
+    .contact-card {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .contact-container {
+        width: 100%;
+    }
+
+    .footerContenido {
+        flex-wrap: wrap;
+    }
+
+    .footerContenido div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footerBrand img {
+        width: 120px;
+    }
+
+    .footerContacto {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .imganesPalabras img {
+        width: 100%;
+    }
 }
