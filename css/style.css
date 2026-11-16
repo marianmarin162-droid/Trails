@@ -1934,7 +1934,16 @@ DIVERSION
     flex-direction: column;
     width: 450px;
 }
+.banerPromocional{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgPromoB{
+    width: 50%;
+    margin: 0 auto;
 
+}
 /*
 *!+!+!+!+!++!!++!+!+!+!++!+!+!+!+!+!+!++!!++!+!+!+!++!+!+
 REsponsive
@@ -2202,6 +2211,7 @@ REsponsive
     .ptcel {
         padding-top: 30px;
     }
+    
 }
 
 @media (max-width: 780px) {
@@ -2254,11 +2264,12 @@ REsponsive
         width: 103px;
         height: auto;
     }
+    .imgPromoB{
+    width: 80%;
+    margin: 0 auto;
 
-    .logoImagen {
-        width: 103px;
-        height: auto;
-    }
+}
+   
 }
 
 @media (max-width:700px) {
@@ -2280,6 +2291,7 @@ REsponsive
     .cardDiver {
         width: 100%;
     }
+    
 }
 
 @media (max-width: 516px) {
@@ -2288,7 +2300,11 @@ REsponsive
         text-align: center;
         align-items: center;
     }
+    .imgPromoB{
+    width:100%;
+    margin: 0 auto;
 
+}
     .contact-container {
         width: 100%;
     }
